@@ -15,6 +15,7 @@ spec:
       containers:
         - name: php-app
           image: edeljose/php-k8s-ci-cd-app:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
           env:
