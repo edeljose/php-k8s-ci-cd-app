@@ -1,5 +1,5 @@
 <?php
-echo "prueba 1, ajuste 1, +++++++ deploy autonomo edel";
+echo "prueba 1, ajuste 1, +++++++ deploy autonomo edel 1";
 $mysqli = new mysqli(
     getenv('DB_HOST'),
     getenv('DB_USER'),
